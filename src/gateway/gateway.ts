@@ -3,7 +3,7 @@ import { SubscribeMessage, WebSocketGateway, WebSocketServer, OnGatewayInit, OnG
 import { Server, Socket } from 'socket.io';
 
 @WebSocketGateway({ cors: { origin: 'http://localhost:3000' } })
-export class SocketGateway implements OnGatewayInit, OnGatewayConnection, OnGatewayDisconnect {
+export class Mygateway implements OnGatewayInit, OnGatewayConnection, OnGatewayDisconnect {
   @WebSocketServer() server: Server;
   private logger: Logger = new Logger('SocketGateway');
 
