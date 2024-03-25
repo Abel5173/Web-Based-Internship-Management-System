@@ -11,13 +11,5 @@
       "src": "/(.*)",
       "dest": "dist/main.js"
     }
-  ],
-  "env": {
-    "DATABASE_URL": "@database-url",
-    "JWT_SECRET": "@jwt-secret",
-    "RT_SECRET": "@rt-secret",
-    "CLOUDINARY_CLOUD_NAME": "@cloudinary-cloud-name",
-    "CLOUDINARY_API_KEY": "@cloudinary-api-key",
-    "CLOUDINARY_API_SECRET": "@cloudinary-api-secret"
-  }
+  ]
 }
